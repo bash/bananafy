@@ -51,10 +51,6 @@
     }
 
     textNodes.forEach((node) => {
-
-      console.log(node.parentNode, node.textContent)
-
-
       node.textContent = bananafyString(node.textContent)
     })
 
